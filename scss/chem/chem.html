@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Water Hardness Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>Water Hardness Calculator</h1>
+	<div id="calculator">
+		<input type="text" id="result" readonly>
+		<div id="buttons">
+			<button onclick="clearScreen()">C</button>
+			<button onclick="backspace()">⌫</button>
+			<button onclick="display('/')">/</button>
+			<button onclick="display('7')">7</button>
+			<button onclick="display('8')">8</button>
+			<button onclick="display('9')">9</button>
+			<button onclick="display('*')">*</button>
+			<button onclick="display('4')">4</button>
+			<button onclick="display('5')">5</button>
+			<button onclick="display('6')">6</button>
+			<button onclick="display('-')">-</button>
+			<button onclick="display('1')">1</button>
+			<button onclick="display('2')">2</button>
+			<button onclick="display('3')">3</button>
+			<button onclick="display('+')">+</button>
+			<button onclick="display('0')">0</button>
+			<button onclick="display('.')">.</button>
+			<button onclick="calculate()">=</button>
+			<button onclick="standardizeEDTA()">Standardize EDTA</button>
+			<button onclick="calculateWaterHardness()">Calculate Water Hardness</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
